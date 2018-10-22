@@ -81,3 +81,10 @@ body
   box-shadow: 0 0 5px gray;
   padding: 0 2px;
 }
+
+@media screen and (max-width: 1000px)
+{
+  #wrapper  { width: 500px; }
+  #gallows  { float: none; margin-bottom: 15px; }
+  #password { width: 500px; margin: 15px auto; }
+}
